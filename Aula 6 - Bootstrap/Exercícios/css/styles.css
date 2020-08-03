@@ -1,0 +1,28 @@
+.bg {
+    height: 200px; 
+    background-image: url("../imagens/banner.jpg");       
+    background-position: center;  
+    background-size: cover;  
+    border-radius: 3px;
+}
+
+.bg-secondary {
+    border-radius: 3px;
+}
+
+.img-grande {
+    border-radius: 5px;
+}
+
+footer {
+    color: white;
+    border-radius: 3px 3px 0px 0px;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: white;
+}
