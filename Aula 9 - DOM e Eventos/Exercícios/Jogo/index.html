@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estourando Balões</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" 
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script type='text/javascript'>
+        function iniciaJogo() {
+            var nivel = document.getElementById('nivel').value;
+                        
+            window.location.href = 'jogo.html?' + nivel;
+        }
+    </script>
+
+</head>
+<body>
+    <div class="menu">
+        <div class="row">
+            <div class="col-md-12">
+                <!-- <form>
+                    <label for="nomeJogador"><b>Jogador:&nbsp;</b>
+                    </label><input type="text" id="nomeJogador" name="nomeJogador"><br><br>
+                </form> -->
+                <p>
+                    <b>Nível:&nbsp;</b>
+                    <select id="nivel">
+                        <option value="1">Fácil</option>
+                        <option value="2">Normal</option>
+                        <option value="3">Difícil</option>
+                    </select>
+                </p>
+                <span id="placar"></span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <br>
+                <img src="imagens/play.png" onclick="iniciaJogo()">  
+            </div>
+        </div>
+    </div>
+        
+    </div>
+</body>
+</html>
