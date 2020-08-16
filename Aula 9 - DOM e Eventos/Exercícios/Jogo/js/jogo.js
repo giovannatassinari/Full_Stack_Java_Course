@@ -7,7 +7,7 @@ function iniciaJogo(){
     var tempo_segundos = 0;
     
     if(nivel_jogo == 1){
-        tempo_segundos = 5;
+        tempo_segundos = 25;
     }
 
     if (nivel_jogo == 2) {
